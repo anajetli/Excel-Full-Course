@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ExcelAddIn-01
+</name>
+</assembly>
+<members>
+<member name="P:ExcelAddIn_01.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ExcelAddIn_01.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ExcelAddIn_01.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:ExcelAddIn_01.ThisAddIn.#ctor(Microsoft.Office.Tools.Excel.ApplicationFactory,System.IServiceProvider)">
+</member><member name="M:ExcelAddIn_01.ThisAddIn.Initialize">
+</member><member name="M:ExcelAddIn_01.ThisAddIn.FinishInitialization">
+</member><member name="M:ExcelAddIn_01.ThisAddIn.InitializeDataBindings">
+</member><member name="M:ExcelAddIn_01.ThisAddIn.InitializeCachedData">
+</member><member name="M:ExcelAddIn_01.ThisAddIn.InitializeData">
+</member><member name="M:ExcelAddIn_01.ThisAddIn.BindToData">
+</member><member name="M:ExcelAddIn_01.ThisAddIn.StartCaching(System.String)">
+</member><member name="M:ExcelAddIn_01.ThisAddIn.StopCaching(System.String)">
+</member><member name="M:ExcelAddIn_01.ThisAddIn.IsCached(System.String)">
+</member><member name="M:ExcelAddIn_01.ThisAddIn.BeginInitialization">
+</member><member name="M:ExcelAddIn_01.ThisAddIn.EndInitialization">
+</member><member name="M:ExcelAddIn_01.ThisAddIn.InitializeControls">
+</member><member name="M:ExcelAddIn_01.ThisAddIn.InitializeComponents">
+</member><member name="M:ExcelAddIn_01.ThisAddIn.NeedsFill(System.String)">
+</member><member name="M:ExcelAddIn_01.ThisAddIn.OnShutdown">
+</member><member name="T:ExcelAddIn_01.ThisAddIn">
+</member><member name="M:ExcelAddIn_01.Globals.#ctor">
+</member><member name="T:ExcelAddIn_01.Globals">
+</member><member name="M:ExcelAddIn_01.ThisRibbonCollection.#ctor(Microsoft.Office.Tools.Ribbon.RibbonFactory)">
+</member><member name="T:ExcelAddIn_01.ThisRibbonCollection">
+</member>
+</members>
+</doc>

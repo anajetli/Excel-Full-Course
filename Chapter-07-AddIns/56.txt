@@ -1,0 +1,31 @@
+
+Private Sub Workbook_Open()
+
+Const CBR_INSERT As String = "Insert Info Wizard"
+Const CTL_INSERT As String = "Insert Info"
+
+   Dim cbrWiz       As CommandBar
+   Dim ctlInsert    As CommandBarButton
+   On Error Resume Next
+   ' Determine whether command bar already exists.
+   Set cbrWiz = Application.CommandBars(CBR_INSERT)
+   ' If command bar does not exist, create it.
+   If cbrWiz Is Nothing Then
+      Err.Clear
+      Set cbrWiz = Application.CommandBars.Add(CBR_INSERT) '.Controls.Add(Type:=msoControlPopup)
+      ' Make command bar visible.
+      cbrWiz.Visible = True
+      ' Add button control.
+      Set ctlInsert = cbrWiz.Controls.Add
+      With ctlInsert
+         .Style = msoButtonCaption
+         .Caption = CTL_INSERT
+         .Tag = CTL_INSERT
+         ' Specify procedure that will run when button is clicked.
+         '.OnAction = "ShowForm"
+      End With
+
+      ' Make sure the existing commandbar is visible
+      cbrWiz.Visible = True
+   End If
+End Sub
